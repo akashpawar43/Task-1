@@ -1,0 +1,51 @@
+.hei-dis {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar form .tp input:focus {
+    border: none;
+}
+
+.hero {
+    height: 30rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/rect1.png);
+}
+
+.pb5 {
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-image: url(./images/sm-rect.png);
+    }
+
+    .pb5 {
+        padding-bottom: 3rem;
+    }
+
+    .space {
+        justify-content: space-between !important;
+        padding-top: 2rem;
+    }
+
+    .space img {
+        width: 2rem;
+    }
+
+    .nav2 .posts .w-full {
+        width: 100% !important;
+    }
+
+    .modal-dialogsm {
+        justify-content: end !important;
+    }
+
+    .s50-50 {
+        width: 50% !important;
+    }
+}
